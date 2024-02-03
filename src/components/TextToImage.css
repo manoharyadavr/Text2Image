@@ -1,0 +1,117 @@
+.container {
+  width: 100%;
+  margin: 30px auto;
+  padding: 20px auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#user-input {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  color: whitesmoke;
+  font-size: 1.1rem;
+  background: transparent;
+}
+
+#generate-btn {
+  padding: 10px auto;
+  width: 30%;
+  color: white;
+  font-size: 1rem;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(26, 213, 135);
+  transition: 0.3s;
+}
+
+.user-prompt {
+  width: 80%;
+  background-color: #ffffff54;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+#user-input::placeholder {
+  color: rgb(195, 194, 194);
+  border: none;
+  border-style: none;
+}
+
+h1 span {
+  color: #ff004d;
+}
+
+h1 {
+  color: #efecec;
+  text-shadow: 2px 3px 5px rgba(198, 175, 175, 0.667);
+}
+
+.image-generated img {
+  width: 80%;
+  height: 50%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sample-image img {
+  width: 80%;
+  height: 40%;
+  margin: 20px auto;
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #ffc9cb;
+}
+
+.generated-image {
+  margin: 20px;
+  border-radius: 40px;
+  border: 1px solid white;
+}
+
+.loading-bar {
+  top: 5%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+  width: 60%;
+  color: white;
+  height: 20px; /* Adjust the height of the progress bar */
+  background-color: #ff4141; /* Background color of the progress bar */
+  border-radius: 5px; /* Rounded corners for the progress bar */
+}
+
+#generate-btn:hover{
+    transform: scale(1.2);
+    background-color:#ff004d;
+}
+
+#generate-btn:active{
+    transform: scale(0.9);
+    background-color: white;
+    color: black;
+}
