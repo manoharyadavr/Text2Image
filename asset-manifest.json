@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Text2Image/static/css/main.988b4178.css",
+    "main.js": "/Text2Image/static/js/main.553a4300.js",
+    "static/media/welcome-message.jpg": "/Text2Image/static/media/welcome-message.c7b2414237b1a35164dd.jpg",
+    "index.html": "/Text2Image/index.html",
+    "main.988b4178.css.map": "/Text2Image/static/css/main.988b4178.css.map",
+    "main.553a4300.js.map": "/Text2Image/static/js/main.553a4300.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.988b4178.css",
+    "static/js/main.553a4300.js"
+  ]
+}
